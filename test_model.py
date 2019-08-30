@@ -81,7 +81,6 @@ with tf.Session() as sess:
             n_channels = 2
         channels_wav = []
         for channel in range(n_channels):
-            gc.collect()
             print("channel: %d/%d"%(channel+1,n_channels))
             audio = librosa.util.fix_length(data[:, channel], n + nfft // 2)
             sample_mix = from_polar(to_stft(audio, nfft))
