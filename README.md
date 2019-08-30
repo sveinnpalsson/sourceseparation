@@ -5,6 +5,15 @@ To train a source separation model, use main.py. It defines many parameters to
 control the model architecture and training. The default parameters
 will be the ones of the baseline model discussed in the paper.
 
+## Output examples
+Here are some output examples using the pre-trained model provided in this repository. 
+The separation output examples are hosted on https://clyp.it/
+1. [Original](https://www.youtube.com/watch?v=dQw4w9WgXcQ) -- [Vocals](https://clyp.it/o52vmanz) -- [Drums](https://clyp.it/kjpjunev) -- [Bass](https://clyp.it/i4cai5md) -- [Rest](https://clyp.it/zb4biluo)
+2. [Original](https://www.youtube.com/watch?v=-r679Hhs9Zs) -- [Vocals](https://clyp.it/ojbvd24s) -- [Drums](https://clyp.it/v5oscl5h) -- [Bass](https://clyp.it/ita0d002) -- [Rest](https://clyp.it/kltpn3ib)
+3. [Original]() -- [Vocals](https://clyp.it/o52vmanz) -- [Drums]() -- [Bass]() -- [Rest]()
+4. [Original]() -- [Vocals](https://clyp.it/o52vmanz) -- [Drums]() -- [Bass]() -- [Rest]()
+
+
 ## Running pre-trained model
 
 To run the pre-trained model on your own favorite music simply run:
