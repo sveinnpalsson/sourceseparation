@@ -1,5 +1,5 @@
 This repository contains code related to the paper 
-**Monaural Music Source Separation using a ResNet Latent Separator Network**
+[**Monaural Music Source Separation using a ResNet Latent Separator Network**](https://tik-old.ee.ethz.ch/file/0975eb70cb3de1985327527eccbd66e2/ICTAI__19_Monaural_Source_Separation.pdf)
 
 To train a source separation model, use main.py. It defines many parameters to
 control the model architecture and training. The default parameters
@@ -11,7 +11,7 @@ The separation output examples are hosted on https://clyp.it/
 1. [Original](https://www.youtube.com/watch?v=dQw4w9WgXcQ) -- [Vocals](https://clyp.it/o52vmanz) -- [Drums](https://clyp.it/kjpjunev) -- [Bass](https://clyp.it/i4cai5md) -- [Rest](https://clyp.it/zb4biluo)
 2. [Original](https://www.youtube.com/watch?v=-r679Hhs9Zs) -- [Vocals](https://clyp.it/ojbvd24s) -- [Drums](https://clyp.it/v5oscl5h) -- [Bass](https://clyp.it/ita0d002) -- [Rest](https://clyp.it/kltpn3ib)
 3. [Original](https://clyp.it/o0xxf3hh) -- [Vocals](https://clyp.it/j3mqddy1) -- [Drums](https://clyp.it/l2dt2ovz) -- [Bass](https://clyp.it/g2ca3b3y) -- [Rest](https://clyp.it/gbss4eon)
-4. [Original]() -- [Vocals](https://clyp.it/o52vmanz) -- [Drums]() -- [Bass]() -- [Rest]()
+
 
 
 ## Running pre-trained model
