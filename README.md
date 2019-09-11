@@ -1,10 +1,6 @@
 This repository contains code related to the paper 
 [**Monaural Music Source Separation using a ResNet Latent Separator Network**](https://tik-old.ee.ethz.ch/file/0975eb70cb3de1985327527eccbd66e2/ICTAI__19_Monaural_Source_Separation.pdf)
 
-To train a source separation model, use main.py. It defines many parameters to
-control the model architecture and training. The default parameters
-will be the ones of the baseline model discussed in the paper.
-
 ## Output examples
 Here are some output examples using the pre-trained model provided in this repository. 
 The separation output examples are hosted on https://clyp.it/
@@ -14,9 +10,9 @@ The separation output examples are hosted on https://clyp.it/
 
 
 
-## Running pre-trained model
+## Use the pre-trained model
 
-To run the pre-trained model on your own favorite music simply run:
+To run the provided pre-trained model on your own favorite music simply run:
 ```
 python test_model.py --model_path "RA/MUSDB18/2018-08-09-16-53-46" --data_path <directory with some music>
 ```
