@@ -1,0 +1,16 @@
+.git
+.gitignore
+__pycache__/
+node_modules
+demo_in
+demo_out
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+data/
+.vscode/
+.DS_Store
+.env
+.env.*

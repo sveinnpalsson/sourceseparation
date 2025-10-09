@@ -4,14 +4,13 @@ import librosa.core as lc
 from librosa.util import fix_length
 from sklearn.utils import shuffle
 from os.path import join
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 from librosa.core import phase_vocoder
 from librosa.effects import pitch_shift
 from datetime import datetime as dt
-from tensorboardX import SummaryWriter
 from utils import *
-
 
 class SourceSeparator(object):
     def __init__(self, sess, config):
@@ -152,6 +151,7 @@ class SourceSeparator(object):
     def train(self, sess, config):
         t_vars = tf.trainable_variables()
         optimizer = tf.train.AdamOptimizer
+        from tensorboardX import SummaryWriter
         self.writer = SummaryWriter(config.log_dir)
         optim = optimizer(config.lr).minimize(self.loss, var_list=t_vars)
         tf.global_variables_initializer().run()

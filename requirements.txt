@@ -1,9 +1,10 @@
-librosa==0.6.0
-numpy==1.14.2
-PySoundFile==0.9.0.post1
-scipy==1.0.0
-tensorboardX==1.8
-tensorflow-gpu==1.8.0
-tqdm==4.23.1
-pydub==0.21.0
-resampy==0.2.1
+# requirements.txt  (cpu/gpu-agnostic; TF is in the base image)
+tensorflow==2.15.0
+tf_slim==1.1.0
+numpy==1.24.4
+scipy==1.10.1
+librosa==0.10.1
+soundfile==0.12.1
+resampy==0.4.3
+pydub==0.25.1
+tqdm==4.66.4
